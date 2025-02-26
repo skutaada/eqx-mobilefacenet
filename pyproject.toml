@@ -1,0 +1,21 @@
+[project]
+name = "eqx-mobilefacenet"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "equinox>=0.11.10",
+    "matplotlib>=3.10.0",
+    "opencv-python>=4.11.0.86",
+    "pillow>=11.1.0",
+    "scipy>=1.15.2",
+    "spu>=0.9.3b0",
+    "torch>=2.6.0",
+    "torchvision>=0.21.0",
+    "tqdm>=4.67.1",
+]
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
